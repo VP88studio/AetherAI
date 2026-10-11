@@ -1,13 +1,13 @@
 import random, os
 goal = 14
-from Brain.config import WipeMem, testprint, SaveState
+from Experimental.Brain.config import WipeMem, testprint, SaveState
 weight1 = 0.0
 weight2 = 0.0
 weight3 = 0.0
 cmulti = 1
 nounfloat = True
-import Brain.Memory.memory
-from Brain.Memory.memory import memory, save
+import Experimental.Brain.Memory.memory
+from Experimental.Brain.Memory.memory import memory, save
 if WipeMem:
     print("Wiping Memory...")
     os.remove('Brain/Memory/memory.json')

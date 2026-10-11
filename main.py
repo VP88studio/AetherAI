@@ -1,2 +1,1 @@
-import Brain.neuron as neuron
-import Brain
+import brain.neuron
